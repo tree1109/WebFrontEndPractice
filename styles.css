@@ -1,11 +1,28 @@
-span {
-  display: inline-block;
-  margin: 20px;
-  padding: 20px;
+/* p.error {
+  color: red;
 }
-div {
-  /* display: inline */
-  border: 2px solid crimson;
-  margin: 20px;
+p.success {
+  color: #00c43b;
+}
+p.success.feedback{
+  border: 1px dashed #00c43b;
+}
+div#content {
+  background-color: #ebebeb;
   padding: 20px;
+} */
+/* div .error {
+  color: pink
+} */
+a[href*="thenetninja"] {
+  background-color: #3dd13d;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+a[href$=".com"] {
+  color: white;
+  background: red;
+  border: 2px solid blue;
 }
