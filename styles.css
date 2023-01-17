@@ -7,17 +7,16 @@ body {
   background: gray;
 }
 header {
-  width: 50%;
-  max-width: 400px;
+  width: 80%;
+  max-width: 700px;
   margin: 50px auto;
-}
-header div {
-  text-align: center;
   padding: 25px 10px;
+  box-sizing: border-box;
+  text-align: center;
   color: wheat;
   background: darkcyan;
   border: 10px solid wheat;
-  border-radius: 50px;
+  border-radius: 80px;
 }
 header h1 {
   text-shadow: 3px 3px palevioletred;
@@ -25,11 +24,11 @@ header h1 {
 main {
   width: 80%;
   max-width: 700px;
-  margin: 60px auto;
+  margin: 50px auto;
   box-sizing: border-box;
   background: darkcyan;
   border: 10px solid wheat;
-  border-radius: 100px;
+  border-radius: 80px;
 }
 main h1 {
   color: wheat;
@@ -46,13 +45,19 @@ main li {
   width: 80%;
   margin: 25px auto;
   padding: 15px;
-  background-color: palevioletred;
+  background: palevioletred;
   border: 5px solid wheat;
   border-radius: 30px;
   list-style-type: none;
+  color: whitesmoke;
+  font-size: 20px;
+}
+main li:hover {
+  border: 5px solid yellowgreen;
+  background: darkgreen;
 }
 main li a {
-  color: whitesmoke;
+  color: inherit;
+  font-size: inherit;
   text-decoration: none;
-  font-size: 20px;
 }
