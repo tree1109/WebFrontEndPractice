@@ -30,6 +30,10 @@ main {
   border: 10px solid wheat;
   border-radius: 80px;
 }
+main article {
+  width: 80%;
+  margin: 50px auto
+}
 main h1 {
   color: wheat;
   text-shadow: 5px 5px 1px palevioletred;
@@ -37,26 +41,44 @@ main h1 {
   margin: 30px auto;
   font-size: 60px;
 }
-main article {
-  width: 80%;
-  margin: 50px auto
-}
-main li {
-  width: 80%;
-  margin: 25px auto;
-  padding: 15px;
+.course {
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
   background: palevioletred;
   border: 5px solid wheat;
   border-radius: 30px;
-  list-style-type: none;
   color: whitesmoke;
   font-size: 20px;
 }
-main li:hover {
-  border: 5px solid yellowgreen;
-  background: darkgreen;
+.course h2 {
+  color: wheat;
+  text-shadow: 4px 4px 1px darkslategray;
+  text-align: center;
+  margin: 15px auto;
+  font-size: 35px;
 }
-main li a {
+.course p {
+  width: 90%;
+  margin: 20px auto;
+}
+.course ul {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+.course ul li {
+  list-style-type: none;
+  margin: 10px auto;
+  padding: 10px;
+  background: darkslateblue;
+  border: 5px solid wheat;
+  border-radius: 30px;
+}
+.course ul li:hover {
+  background: slateblue;
+}
+.course a {
   color: inherit;
   font-size: inherit;
   text-decoration: none;
